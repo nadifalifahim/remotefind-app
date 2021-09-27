@@ -1,9 +1,32 @@
 * {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
+
 .header-container {
   width: 90%;
   margin: 0 auto;
-  border-bottom: 1px solid grey;
   text-align: center;
+  color: white;
+  background: linear-gradient(60deg, rgb(255, 41, 159), rgb(0, 4, 224));
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px 0;
+}
+
+.header-container h1 {
+  padding: 10px 0;
+  border-bottom: 3px solid white;
+  display: inline-block;
+}
+
+.header-container p {
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+.bold {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 2em !important;
 }

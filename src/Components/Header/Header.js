@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className="header-container">
       <h1>RemoteFind</h1>
-      <h2>Find your remote workforce instantly</h2>
-      <p>Total Budget: $ 1,00,000</p>
+      <p>Find your remote workforce instantly</p>
+      <p className="bold">Total Budget: $ 1,00,000</p>
     </div>
   );
 };

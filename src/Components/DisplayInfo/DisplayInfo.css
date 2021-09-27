@@ -1,0 +1,13 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 90%;
+  margin: 50px auto;
+}
