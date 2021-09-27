@@ -18,9 +18,9 @@ const Card = (props) => {
             </div>
             <h2>{name}</h2>
             <p className="designation-highlight">{designation}</p>
-            <p>Age: {age}</p>
-            <p>Location: {location}</p>
-            <p>Salary: ${salary}</p>
+            <p>Age: <span className="bold-text">{age}</span></p>
+            <p>Location: <span className="bold-text">{location}</span></p>
+            <p>Salary: <span className="bold-text">${salary}</span></p>
             <button onClick={() => {props.updateTeam(props.personInfo); addButtonHandler(); }}> <FontAwesomeIcon icon={addToTeamIconStatus} /> {addToTeamStatus}</button>
         </div>
     );

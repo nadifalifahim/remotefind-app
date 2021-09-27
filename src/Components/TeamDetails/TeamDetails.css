@@ -2,6 +2,7 @@
   box-shadow: 0px 5px 20px 5px #00000010;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .team-details-card h1 {
@@ -12,4 +13,8 @@
 
 .team-details-card p {
   margin-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: 700;
 }

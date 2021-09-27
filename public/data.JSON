@@ -60,13 +60,13 @@
     "designation": "Data Analyst",
     "age": 28,
     "location": "Canada",
-    "salary": 36000,
+    "salary": 106000,
     "rating": 5,
     "category": "Data Science",
     "image": "https://th.bing.com/th/id/R.00e8dcb54b0e184466bc05f0dd79fbe1?rik=AzLJ7ecp32C9aQ&pid=ImgRaw&r=0"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Sarah Yugine",
     "designation": "Operations Manager",
     "age": 28,
@@ -77,23 +77,23 @@
     "image": "https://th.bing.com/th/id/OIP.LQfx6jXMSl2i8ypWRv6ROAHaHa?pid=ImgDet&w=2560&h=2560&rs=1"
   },
   {
-    "id": 4,
+    "id": 8,
     "name": "Peter Robertson",
     "designation": "Data Analyst",
     "age": 28,
-    "location": "Canada",
-    "salary": 36000,
+    "location": "United States",
+    "salary": 43000,
     "rating": 5,
     "category": "Data Science",
     "image": "https://th.bing.com/th/id/OIP.09bP1WtKVPHq_MfLiYju6QHaL2?pid=ImgDet&w=500&h=800&rs=1"
   },
   {
-    "id": 4,
+    "id": 9,
     "name": "Ashley Queen",
     "designation": "Finance Manager",
     "age": 28,
     "location": "Canada",
-    "salary": 36000,
+    "salary": 62000,
     "rating": 5,
     "category": "Finance",
     "image": "https://th.bing.com/th/id/OIP.CUsEnb6aVVXpYbsaYhxtZwAAAA?pid=ImgDet&w=216&h=300&rs=1"

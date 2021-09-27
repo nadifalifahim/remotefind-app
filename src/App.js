@@ -4,8 +4,10 @@ import DisplayInfo from "./Components/DisplayInfo/DisplayInfo";
 import { useEffect, useState } from "react";
 
 function App() {
+  // Setting People State
   const [people, setPeople] = useState([]);
 
+  // Fetching data
   useEffect(() => {
     fetch("./data.JSON")
     .then(res => res.json())
