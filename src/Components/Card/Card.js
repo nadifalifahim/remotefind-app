@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus, faUserCheck } from '@fortawesome/free-solid-svg-icons'
 import "./Card.css"
 
+// Component to display available freelancers
 const Card = (props) => {
     const [addToTeamStatus, setAddToTeamStatus] = useState("Add to team");
     const [addToTeamIconStatus, setAddToTeamIconStatus] = useState(faUserPlus);

@@ -12,12 +12,19 @@ const DisplayInfo = (props) => {
     }
   }
   return (
-    <div className="info-container">
-      <div className="card-container">
-        {props.people.map(person => <Card key={person.id} personInfo={person} updateTeam={updateTeam}></Card>)}
-      </div>
-      <div>
-        <TeamDetails team={team}></TeamDetails>
+    <div>
+      <div className="info-container">
+        <div>
+          <div className="display-heading">
+            <h2>Available Members</h2>
+          </div>
+          <div className="card-container">
+            {props.people.map(person => <Card key={person.id} personInfo={person} updateTeam={updateTeam}></Card>)}
+          </div>
+        </div>
+        <div>
+          <TeamDetails team={team}></TeamDetails>
+        </div>
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./AddedMembers.css"
 
+// Component to display members in a card
 const AddedMembers = (props) => {
     const {name, image} = props.member;
 
